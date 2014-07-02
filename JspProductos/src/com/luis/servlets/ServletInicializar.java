@@ -35,7 +35,7 @@ public class ServletInicializar extends HttpServlet {
 		
 		productos.add(new Producto("Telefono",200));
 		productos.add(new Producto("Reloj",100));
-		productos.add(new Producto("Tablet",150));
+		productos.add(new Producto(null,150));
 		productos.add(new Producto("Aire acondicionado",300));
 		productos.add(new Producto("Portatil",1200));
 		productos.add(new Producto("Monitor",50));
